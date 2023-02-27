@@ -19,8 +19,8 @@
 /* Colors */
 :root {
   --color-default: #212529;
-  --color-primary: #ce1212;
-  --color-secondary: #37373f;
+  --color-primary: #ab3f84;
+  --color-secondary: #3e3f37;
 }
 
 /* Smooth scroll behavior */
@@ -42,7 +42,7 @@ a {
 }
 
 a:hover {
-  color: #ec2727;
+  color: #98578c;
   text-decoration: none;
 }
 
@@ -87,7 +87,7 @@ section {
   margin: 0;
   font-size: 48px;
   font-weight: 400;
-  font-family: var(--font-primary);
+  font-family: var(--font-secondary);
 }
 
 .section-header p span {
@@ -99,7 +99,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 15px 0;
-  background: rgba(55, 55, 63, 0.05);
+  background: rgba(47, 13, 1, 0.05);
   margin-top: 90px;
 }
 
@@ -177,7 +177,7 @@ section {
 }
 
 .scroll-top:hover {
-  background: #ec2727;
+  background: #ab3f84;
   color: #fff;
 }
 
@@ -313,7 +313,7 @@ section {
 .header .btn-book-a-table:hover,
 .header .btn-book-a-table:focus:hover {
   color: #fff;
-  background: rgba(206, 18, 18, 0.8);
+  background: rgba(215, 67, 144, 0.8);
 }
 
 section {
@@ -594,7 +594,7 @@ section {
   font-weight: 700;
   font-size: 36px;
   margin-bottom: 30px;
-  font-family: var(--font-secondary);
+  font-family: var(--font-primary);
 }
 
 .about .call-us {
@@ -611,7 +611,7 @@ section {
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 5px;
-  font-family: var(--font-default);
+  font-family: var(--font-secondary);
 }
 
 .about .call-us p {
@@ -645,7 +645,7 @@ section {
 .about .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(var(--color-primary) 50%, rgba(206, 18, 18, 0.4) 52%);
+  background: radial-gradient(var(--color-primary) 50%, rgba(237, 124, 199, 0.4) 52%);
   border-radius: 50%;
   display: block;
   position: absolute;
@@ -671,7 +671,7 @@ section {
   animation-timing-function: steps;
   opacity: 1;
   border-radius: 50%;
-  border: 5px solid rgba(206, 18, 18, 0.7);
+  border: 5px solid rgba(238, 103, 211, 0.7);
   top: -15%;
   left: -15%;
   background: rgba(198, 16, 0, 0);
@@ -944,7 +944,7 @@ section {
 }
 
 .menu .tab-content .menu-item .ingredients {
-  font-family: var(--font-secondary);
+  font-family: var(--font-primary);
   color: #8d8d9b;
   margin-bottom: 5px;
 }
@@ -1000,7 +1000,7 @@ section {
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
-  color: #f05656;
+  color: #ab3f84;
   font-size: 26px;
   line-height: 0;
 }
@@ -1252,7 +1252,7 @@ section {
 .book-a-table .php-email-form .error-message {
   display: none;
   color: #fff;
-  background: #df1529;
+  background: #ab3f84;
   text-align: left;
   padding: 15px;
   margin-bottom: 24px;
@@ -1321,7 +1321,7 @@ section {
 }
 
 .book-a-table .php-email-form button[type=submit]:hover {
-  background: #ec2727;
+  background: #ab3f84;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1449,7 +1449,7 @@ section {
 .contact .php-email-form .error-message {
   display: none;
   color: #fff;
-  background: #df1529;
+  background: #ab3f84;
   text-align: left;
   padding: 15px;
   font-weight: 600;
@@ -1518,7 +1518,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #ec2727;
+  background: #ab3f84;
 }
 
 @keyframes animate-loading {
@@ -1574,7 +1574,7 @@ section {
 }
 
 .hero .btn-book-a-table:hover {
-  background: rgba(206, 18, 18, 0.8);
+  background: rgba(206, 104, 160, 0.8);
   box-shadow: 0 8px 28px rgba(206, 18, 18, 0.45);
 }
 
@@ -1599,7 +1599,7 @@ section {
 }
 
 .hero .btn-watch-video:hover i {
-  color: rgba(206, 18, 18, 0.8);
+  color: rgba(212, 86, 175, 0.8);
 }
 
 @media (max-width: 640px) {
